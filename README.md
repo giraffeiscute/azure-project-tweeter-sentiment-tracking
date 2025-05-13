@@ -73,13 +73,13 @@ This project leverages Microsoft Azure to build an automated system for real-tim
 - Twilio sends an SMS alert to the designated user, warning of potential negative feedback
 
 ## System Architecture
-Azure Logic Apps: Automates the workflow
+- Azure Logic Apps: Automates the workflow
 
-Azure Cognitive Services - Text Analytics: Performs sentiment analysis
+- Azure Cognitive Services - Text Analytics: Performs sentiment analysis
 
-Twilio API: Sends real-time SMS alerts
+- Twilio API: Sends real-time SMS alerts
 
-Twitter API: Reads and monitors specific tweets
+- Twitter API: Reads and monitors specific tweets
 
 ## Result Demonstration
 Automatic Detection of Tweets with Hashtag #YUANenterprise:
