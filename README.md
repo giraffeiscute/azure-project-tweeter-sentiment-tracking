@@ -35,7 +35,12 @@ English version underneath
 - Twitter API：讀取並監控指定推文
 
 ## 成果展示
-（可在 GitHub 專案頁中查看完整流程與測試結果）
+自動偵測特定推特標籤貼文（#YUANenterprise）
+![image](https://github.com/giraffeiscute/azure-project-tweeter-sentiment-tracking/blob/main/result/twitter.png)
+
+負面推文警示：若情緒分數低於 0.5，透過 Twilio 簡訊即時通知使用者，內含情緒分數和貼文使用者 ID
+<img src="https://github.com/giraffeiscute/azure-project-tweeter-sentiment-tracking/blob/main/result/%E7%B0%A1%E8%A8%8A.jpg" alt="image" width="350">
+
 
 ## 參考資料
 陳小熊 (Oct 2018). 使用Azure Logic Apps打造公司相關推特情緒分析監控系統
