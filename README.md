@@ -44,3 +44,54 @@ English version underneath
 
 ## 參考資料
 陳小熊 (Oct 2018). 使用Azure Logic Apps打造公司相關推特情緒分析監控系統
+
+****
+
+# Twitter Sentiment Monitoring System
+This project leverages Microsoft Azure to build an automated system for real-time detection and sentiment analysis of specific hashtags on Twitter. It integrates Azure Logic Apps, Cognitive Services, and Twilio to help businesses monitor and respond to negative sentiment related to their brand.
+
+## Project Features
+- Automatic Detection of tweets containing the specific hashtag #YUANenterprise
+
+- Sentiment Analysis using Azure Text Analytics to evaluate tweet sentiment
+
+- Negative Tweet Alert: If the sentiment score is below 0.5, the system sends an instant SMS alert via Twilio, including:
+
+1. Sentiment score
+
+2. Tweet user ID
+
+## Workflow
+1. Trigger Setup: The workflow is triggered whenever a new tweet contains #YUANenterprise.
+
+2. Sentiment Analysis: Azure Cognitive Services – Text Analytics API is used to evaluate the sentiment of the tweet.
+
+3. Decision and Notification:
+
+- If the sentiment score is below 0.5
+
+- Twilio sends an SMS alert to the designated user, warning of potential negative feedback
+
+## System Architecture
+Azure Logic Apps: Automates the workflow
+
+Azure Cognitive Services - Text Analytics: Performs sentiment analysis
+
+Twilio API: Sends real-time SMS alerts
+
+Twitter API: Reads and monitors specific tweets
+
+## Result Demonstration
+Automatic Detection of Tweets with Hashtag #YUANenterprise:
+
+![image](https://github.com/giraffeiscute/azure-project-tweeter-sentiment-tracking/blob/main/result/twitter.png)
+
+
+Negative Tweet Alert via Twilio SMS (score < 0.5):  
+
+<img src="https://github.com/giraffeiscute/azure-project-tweeter-sentiment-tracking/blob/main/result/%E7%B0%A1%E8%A8%8A.jpg" alt="image" width="350">
+
+## Reference
+Chen, Xiao-Xiong (Oct 2018). Building a Twitter Sentiment Monitoring System Using Azure Logic Apps
+
+
